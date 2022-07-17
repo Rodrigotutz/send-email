@@ -48,8 +48,6 @@ Para utilizar este componente basta seguir o exemplo abaixo:
             $conteudoDoEmail,                           /* Conteudo da mensagem */
             $nomeRemetente,                             /* Nome do Usuário que irá enviar a mensagem */
             $emailRemetente,                            /* Email do Usuário que irá enviar a mensagem */
-
-
         )->send();                                      /* Send -> Método que envia o email */
 
         if($email->error()){                           /* Validação do envio do e-mail */
