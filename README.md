@@ -2,6 +2,14 @@
 
 Envio simples de e-mails com a classe PHPMailer 
 
+## - Instalação
+
+Para instalar esta dependência basta executar o comando abaixo:
+
+``` shell
+composer require rodrigotutz/send-email
+```
+
 ## - Utilização
 
 Para utilizar este componente basta seguir o exemplo abaixo:
@@ -54,7 +62,7 @@ Para utilizar este componente basta seguir o exemplo abaixo:
 
   ```
 
-## Requisitos 
+## - Requisitos 
 
     - PHP 7.0 ou superior
     - PHPMailer 6.6.3 ou superior
