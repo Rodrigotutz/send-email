@@ -1,0 +1,24 @@
+{
+    "name" : "rodrigotutz/send-email",
+    "description": "Classe completa para envio de e-mail com PHP mailer",
+    "authors": [
+        {
+            "name": "Rodrigo tutz",
+            "email": "contatorodtutz@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "RodrigoTutz\\SendEmail\\" : "src/"
+        },
+        "files": [
+            "src/Config.php"
+        ]
+    },
+    "require": {
+        "php" : ">=7.0",
+        "phpmailer/phpmailer" : "6.6.3"
+    }
+}
