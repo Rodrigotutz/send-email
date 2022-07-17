@@ -1,6 +1,6 @@
 # PHP Send-Email
 
-Envio simples de e-mails com a classe PHPMailer 
+gi
 
 ## - Utilização
 
