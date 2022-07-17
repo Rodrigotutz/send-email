@@ -1,6 +1,7 @@
 {
     "name" : "rodrigotutz/send-email",
     "description": "Classe completa para envio de e-mail com PHP mailer",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Rodrigo tutz",
