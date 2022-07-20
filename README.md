@@ -22,8 +22,8 @@ Para utilizar este componente basta seguir o exemplo abaixo:
         "port" => '587',                        /* Insira a PORTA do seu servidor SMTP */
         "user" => 'seu-usuario.com',            /* Insira o Usuario do seu servidor SMTP */
         "passwd" => 'Sua senha',                /* Insira a Senha do seu servidor SMTP */
-        "from_name" => 'Seu Nome',              /* Insira o nome do usuário que irá receber o email */
         "from_email" => 'seuemail@teste.com',   /* Insira o email que irá receber o email */
+        "from_name" => 'Seu Nome'              /* Insira o nome do usuário que irá receber o email */
         ]);
  ```
 
