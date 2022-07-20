@@ -53,6 +53,6 @@ composer require rodrigotutz/send-email
 ```
     Requisitos
 ```php
-- PHP 7.0 ou superior
+- PHP 7.4 ou superior
 - PHPMailer 6.6.3 ou superior
 ```
