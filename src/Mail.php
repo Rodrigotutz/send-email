@@ -39,6 +39,10 @@ class Mail {
         return $this;
     }
 
+    public function attach($filePath, $fileName){
+        $this->data->attach[$filePath] = $fileName;
+    }
+
     public function send($from_name = MAIL['from_name'], $from_email = MAIL['from_email']) : bool{
 
         try {
@@ -47,6 +51,12 @@ class Mail {
             $this->mail->msgHTML($this->data->body);
             $this->mail->addAddress( $from_email, $from_name);
             $this->mail->setFrom($this->data->recipient_email, $this->data->recipient_name);
+
+            if(!empty($this->data->attach)){
+                foreach($this->data->attach as $path => $name) {
+                    $this->mail->addAttachment($path, $name);
+                }
+            }
 
             $this->mail->send();
             return true;
