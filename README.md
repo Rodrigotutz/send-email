@@ -37,7 +37,7 @@ composer require rodrigotutz/send-email
 
     $email->add(
         $assunto,                                   /* Assunto do Email */
-        $conteudoDoEmail,                           /* Conteudo da mensagem */.
+        $conteudoDoEmail,                           /* Conteudo da mensagem */
         $nomeRemetente,                             /* Nome do Usuário que irá enviar a mensagem */
         $emailRemetente                             /* Email do Usuário que irá enviar a mensagem */
     )->send();                                      /* Send -> Método que envia o email */
